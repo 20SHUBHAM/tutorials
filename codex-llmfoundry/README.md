@@ -71,7 +71,7 @@ model = "gpt-5"
 name = "LLM Foundry - Azure"
 base_url = "https://llmfoundry.straive.com/azure/openai/deployments/gpt-5"
 env_key = "LLMFOUNDRY_TOKEN"
-wire_api = "chat"
+wire_api = "responses"
 query_params = { api-version = "2025-04-01-preview" }
 
 [profiles.llmfoundry_gemini]
@@ -104,7 +104,7 @@ model = "openai/gpt-5-codex"
 name = "LLM Foundry - Gemini"
 base_url = "https://llmfoundry.straive.com/openrouter/v1"
 env_key = "LLMFOUNDRY_TOKEN"
-wire_api = "chat"
+wire_api = "responses"
 
 [profiles.openai]
 model_provider = "openai"
